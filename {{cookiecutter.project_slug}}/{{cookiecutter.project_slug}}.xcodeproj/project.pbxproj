@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37FBB552217FC62C00E18260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB551217FC62C00E18260 /* AppDelegate.swift */; };
+		37FBB554217FC62C00E18260 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB553217FC62C00E18260 /* ViewController.swift */; };
+		37FBB557217FC62C00E18260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB555217FC62C00E18260 /* Main.storyboard */; };
+		37FBB559217FC62D00E18260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB558217FC62D00E18260 /* Assets.xcassets */; };
+		37FBB55C217FC62D00E18260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB55A217FC62D00E18260 /* LaunchScreen.storyboard */; };
+		37FBB567217FC62E00E18260 /* CrowdboticsWatchOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB566217FC62E00E18260 /* CrowdboticsWatchOSTests.swift */; };
+		37FBB572217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB571217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift */; };
+		37FBB577217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 37FBB576217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app */; };
+		37FBB57D217FC62E00E18260 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB57B217FC62E00E18260 /* Interface.storyboard */; };
+		37FBB57F217FC62E00E18260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB57E217FC62E00E18260 /* Assets.xcassets */; };
+		37FBB586217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 37FBB585217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37FBB58B217FC62E00E18260 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB58A217FC62E00E18260 /* InterfaceController.swift */; };
+		37FBB58D217FC62E00E18260 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB58C217FC62E00E18260 /* ExtensionDelegate.swift */; };
+		37FBB58F217FC62E00E18260 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB58E217FC62E00E18260 /* NotificationController.swift */; };
+		37FBB591217FC62F00E18260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB590217FC62F00E18260 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37FBB563217FC62E00E18260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FBB546217FC62C00E18260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FBB54D217FC62C00E18260;
+			remoteInfo = CrowdboticsWatchOS;
+		};
+		37FBB56E217FC62E00E18260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FBB546217FC62C00E18260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FBB54D217FC62C00E18260;
+			remoteInfo = CrowdboticsWatchOS;
+		};
+		37FBB578217FC62E00E18260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FBB546217FC62C00E18260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FBB575217FC62E00E18260;
+			remoteInfo = "CrowdboticsWatchOS WatchKit App";
+		};
+		37FBB587217FC62E00E18260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FBB546217FC62C00E18260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FBB584217FC62E00E18260;
+			remoteInfo = "CrowdboticsWatchOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37FBB599217FC62F00E18260 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37FBB586217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB59D217FC62F00E18260 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				37FBB577217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37FBB54E217FC62C00E18260 /* CrowdboticsWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdboticsWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB551217FC62C00E18260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37FBB553217FC62C00E18260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37FBB556217FC62C00E18260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37FBB558217FC62D00E18260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37FBB55B217FC62D00E18260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37FBB55D217FC62D00E18260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FBB562217FC62E00E18260 /* CrowdboticsWatchOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdboticsWatchOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB566217FC62E00E18260 /* CrowdboticsWatchOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdboticsWatchOSTests.swift; sourceTree = "<group>"; };
+		37FBB568217FC62E00E18260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FBB56D217FC62E00E18260 /* CrowdboticsWatchOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdboticsWatchOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB571217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdboticsWatchOSUITests.swift; sourceTree = "<group>"; };
+		37FBB573217FC62E00E18260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FBB576217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrowdboticsWatchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB57C217FC62E00E18260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		37FBB57E217FC62E00E18260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37FBB580217FC62E00E18260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FBB585217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CrowdboticsWatchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB58A217FC62E00E18260 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		37FBB58C217FC62E00E18260 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		37FBB58E217FC62E00E18260 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		37FBB590217FC62F00E18260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37FBB592217FC62F00E18260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FBB593217FC62F00E18260 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37FBB54B217FC62C00E18260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB55F217FC62E00E18260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB56A217FC62E00E18260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB582217FC62E00E18260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37FBB545217FC62C00E18260 = {
+			isa = PBXGroup;
+			children = (
+				37FBB550217FC62C00E18260 /* CrowdboticsWatchOS */,
+				37FBB565217FC62E00E18260 /* CrowdboticsWatchOSTests */,
+				37FBB570217FC62E00E18260 /* CrowdboticsWatchOSUITests */,
+				37FBB57A217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */,
+				37FBB589217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */,
+				37FBB54F217FC62C00E18260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37FBB54F217FC62C00E18260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37FBB54E217FC62C00E18260 /* CrowdboticsWatchOS.app */,
+				37FBB562217FC62E00E18260 /* CrowdboticsWatchOSTests.xctest */,
+				37FBB56D217FC62E00E18260 /* CrowdboticsWatchOSUITests.xctest */,
+				37FBB576217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app */,
+				37FBB585217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37FBB550217FC62C00E18260 /* CrowdboticsWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				37FBB551217FC62C00E18260 /* AppDelegate.swift */,
+				37FBB553217FC62C00E18260 /* ViewController.swift */,
+				37FBB555217FC62C00E18260 /* Main.storyboard */,
+				37FBB558217FC62D00E18260 /* Assets.xcassets */,
+				37FBB55A217FC62D00E18260 /* LaunchScreen.storyboard */,
+				37FBB55D217FC62D00E18260 /* Info.plist */,
+			);
+			path = CrowdboticsWatchOS;
+			sourceTree = "<group>";
+		};
+		37FBB565217FC62E00E18260 /* CrowdboticsWatchOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				37FBB566217FC62E00E18260 /* CrowdboticsWatchOSTests.swift */,
+				37FBB568217FC62E00E18260 /* Info.plist */,
+			);
+			path = CrowdboticsWatchOSTests;
+			sourceTree = "<group>";
+		};
+		37FBB570217FC62E00E18260 /* CrowdboticsWatchOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37FBB571217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift */,
+				37FBB573217FC62E00E18260 /* Info.plist */,
+			);
+			path = CrowdboticsWatchOSUITests;
+			sourceTree = "<group>";
+		};
+		37FBB57A217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				37FBB57B217FC62E00E18260 /* Interface.storyboard */,
+				37FBB57E217FC62E00E18260 /* Assets.xcassets */,
+				37FBB580217FC62E00E18260 /* Info.plist */,
+			);
+			path = "CrowdboticsWatchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		37FBB589217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				37FBB58A217FC62E00E18260 /* InterfaceController.swift */,
+				37FBB58C217FC62E00E18260 /* ExtensionDelegate.swift */,
+				37FBB58E217FC62E00E18260 /* NotificationController.swift */,
+				37FBB590217FC62F00E18260 /* Assets.xcassets */,
+				37FBB592217FC62F00E18260 /* Info.plist */,
+				37FBB593217FC62F00E18260 /* PushNotificationPayload.apns */,
+			);
+			path = "CrowdboticsWatchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37FBB54D217FC62C00E18260 /* CrowdboticsWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FBB59E217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS" */;
+			buildPhases = (
+				37FBB54A217FC62C00E18260 /* Sources */,
+				37FBB54B217FC62C00E18260 /* Frameworks */,
+				37FBB54C217FC62C00E18260 /* Resources */,
+				37FBB59D217FC62F00E18260 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FBB579217FC62E00E18260 /* PBXTargetDependency */,
+			);
+			name = CrowdboticsWatchOS;
+			productName = CrowdboticsWatchOS;
+			productReference = 37FBB54E217FC62C00E18260 /* CrowdboticsWatchOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37FBB561217FC62E00E18260 /* CrowdboticsWatchOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FBB5A1217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOSTests" */;
+			buildPhases = (
+				37FBB55E217FC62E00E18260 /* Sources */,
+				37FBB55F217FC62E00E18260 /* Frameworks */,
+				37FBB560217FC62E00E18260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FBB564217FC62E00E18260 /* PBXTargetDependency */,
+			);
+			name = CrowdboticsWatchOSTests;
+			productName = CrowdboticsWatchOSTests;
+			productReference = 37FBB562217FC62E00E18260 /* CrowdboticsWatchOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37FBB56C217FC62E00E18260 /* CrowdboticsWatchOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FBB5A4217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOSUITests" */;
+			buildPhases = (
+				37FBB569217FC62E00E18260 /* Sources */,
+				37FBB56A217FC62E00E18260 /* Frameworks */,
+				37FBB56B217FC62E00E18260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FBB56F217FC62E00E18260 /* PBXTargetDependency */,
+			);
+			name = CrowdboticsWatchOSUITests;
+			productName = CrowdboticsWatchOSUITests;
+			productReference = 37FBB56D217FC62E00E18260 /* CrowdboticsWatchOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		37FBB575217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FBB59A217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS WatchKit App" */;
+			buildPhases = (
+				37FBB574217FC62E00E18260 /* Resources */,
+				37FBB599217FC62F00E18260 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FBB588217FC62E00E18260 /* PBXTargetDependency */,
+			);
+			name = "CrowdboticsWatchOS WatchKit App";
+			productName = "CrowdboticsWatchOS WatchKit App";
+			productReference = 37FBB576217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		37FBB584217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FBB596217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS WatchKit Extension" */;
+			buildPhases = (
+				37FBB581217FC62E00E18260 /* Sources */,
+				37FBB582217FC62E00E18260 /* Frameworks */,
+				37FBB583217FC62E00E18260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrowdboticsWatchOS WatchKit Extension";
+			productName = "CrowdboticsWatchOS WatchKit Extension";
+			productReference = 37FBB585217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37FBB546217FC62C00E18260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Crowdbotics;
+				TargetAttributes = {
+					37FBB54D217FC62C00E18260 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					37FBB561217FC62E00E18260 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 37FBB54D217FC62C00E18260;
+					};
+					37FBB56C217FC62E00E18260 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 37FBB54D217FC62C00E18260;
+					};
+					37FBB575217FC62E00E18260 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					37FBB584217FC62E00E18260 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 37FBB549217FC62C00E18260 /* Build configuration list for PBXProject "CrowdboticsWatchOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37FBB545217FC62C00E18260;
+			productRefGroup = 37FBB54F217FC62C00E18260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37FBB54D217FC62C00E18260 /* CrowdboticsWatchOS */,
+				37FBB561217FC62E00E18260 /* CrowdboticsWatchOSTests */,
+				37FBB56C217FC62E00E18260 /* CrowdboticsWatchOSUITests */,
+				37FBB575217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */,
+				37FBB584217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37FBB54C217FC62C00E18260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FBB55C217FC62D00E18260 /* LaunchScreen.storyboard in Resources */,
+				37FBB559217FC62D00E18260 /* Assets.xcassets in Resources */,
+				37FBB557217FC62C00E18260 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB560217FC62E00E18260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB56B217FC62E00E18260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB574217FC62E00E18260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FBB57F217FC62E00E18260 /* Assets.xcassets in Resources */,
+				37FBB57D217FC62E00E18260 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB583217FC62E00E18260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FBB591217FC62F00E18260 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37FBB54A217FC62C00E18260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FBB554217FC62C00E18260 /* ViewController.swift in Sources */,
+				37FBB552217FC62C00E18260 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB55E217FC62E00E18260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FBB567217FC62E00E18260 /* CrowdboticsWatchOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB569217FC62E00E18260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FBB572217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FBB581217FC62E00E18260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FBB58F217FC62E00E18260 /* NotificationController.swift in Sources */,
+				37FBB58D217FC62E00E18260 /* ExtensionDelegate.swift in Sources */,
+				37FBB58B217FC62E00E18260 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37FBB564217FC62E00E18260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FBB54D217FC62C00E18260 /* CrowdboticsWatchOS */;
+			targetProxy = 37FBB563217FC62E00E18260 /* PBXContainerItemProxy */;
+		};
+		37FBB56F217FC62E00E18260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FBB54D217FC62C00E18260 /* CrowdboticsWatchOS */;
+			targetProxy = 37FBB56E217FC62E00E18260 /* PBXContainerItemProxy */;
+		};
+		37FBB579217FC62E00E18260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FBB575217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */;
+			targetProxy = 37FBB578217FC62E00E18260 /* PBXContainerItemProxy */;
+		};
+		37FBB588217FC62E00E18260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FBB584217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */;
+			targetProxy = 37FBB587217FC62E00E18260 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37FBB555217FC62C00E18260 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FBB556217FC62C00E18260 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37FBB55A217FC62D00E18260 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FBB55B217FC62D00E18260 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		37FBB57B217FC62E00E18260 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FBB57C217FC62E00E18260 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37FBB594217FC62F00E18260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37FBB595217FC62F00E18260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37FBB597217FC62F00E18260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CrowdboticsWatchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		37FBB598217FC62F00E18260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CrowdboticsWatchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		37FBB59B217FC62F00E18260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CrowdboticsWatchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "CrowdboticsWatchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		37FBB59C217FC62F00E18260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CrowdboticsWatchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "CrowdboticsWatchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		37FBB59F217FC62F00E18260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrowdboticsWatchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crowdbotics.project-slug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37FBB5A0217FC62F00E18260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrowdboticsWatchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crowdbotics.project-slug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37FBB5A2217FC62F00E18260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrowdboticsWatchOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrowdboticsWatchOS.app/CrowdboticsWatchOS";
+			};
+			name = Debug;
+		};
+		37FBB5A3217FC62F00E18260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrowdboticsWatchOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrowdboticsWatchOS.app/CrowdboticsWatchOS";
+			};
+			name = Release;
+		};
+		37FBB5A5217FC62F00E18260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrowdboticsWatchOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrowdboticsWatchOS;
+			};
+			name = Debug;
+		};
+		37FBB5A6217FC62F00E18260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrowdboticsWatchOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrowdboticsWatchOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37FBB549217FC62C00E18260 /* Build configuration list for PBXProject "CrowdboticsWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FBB594217FC62F00E18260 /* Debug */,
+				37FBB595217FC62F00E18260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FBB596217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FBB597217FC62F00E18260 /* Debug */,
+				37FBB598217FC62F00E18260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FBB59A217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FBB59B217FC62F00E18260 /* Debug */,
+				37FBB59C217FC62F00E18260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FBB59E217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FBB59F217FC62F00E18260 /* Debug */,
+				37FBB5A0217FC62F00E18260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FBB5A1217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FBB5A2217FC62F00E18260 /* Debug */,
+				37FBB5A3217FC62F00E18260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FBB5A4217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FBB5A5217FC62F00E18260 /* Debug */,
+				37FBB5A6217FC62F00E18260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37FBB546217FC62C00E18260 /* Project object */;
+}
