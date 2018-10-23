@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  CrowdboticsWatchOS
+//  {{cookiecutter.project_slug}}
 //
 //  Created by Dan on 10/23/18.
 //  Copyright © 2018 Crowdbotics. All rights reserved.

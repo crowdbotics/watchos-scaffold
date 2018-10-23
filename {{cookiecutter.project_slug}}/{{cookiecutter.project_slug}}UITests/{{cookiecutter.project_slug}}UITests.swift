@@ -1,6 +1,6 @@
 //
-//  CrowdboticsWatchOSUITests.swift
-//  CrowdboticsWatchOSUITests
+//  {{cookiecutter.project_slug}}UITests.swift
+//  {{cookiecutter.project_slug}}UITests
 //
 //  Created by Dan on 10/23/18.
 //  Copyright © 2018 Crowdbotics. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class CrowdboticsWatchOSUITests: XCTestCase {
+class {{cookiecutter.project_slug}}UITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

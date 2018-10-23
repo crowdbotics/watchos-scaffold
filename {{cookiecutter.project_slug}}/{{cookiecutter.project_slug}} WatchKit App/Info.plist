@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>CrowdboticsWatchOS WatchKit App</string>
+	<string>{{cookiecutter.project_slug}} WatchKit App</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.crowdbotics.CrowdboticsWatchOS</string>
+	<string>com.crowdbotics.{{cookiecutter.project_slug}}</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

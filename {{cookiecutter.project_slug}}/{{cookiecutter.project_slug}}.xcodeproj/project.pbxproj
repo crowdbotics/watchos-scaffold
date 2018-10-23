@@ -12,12 +12,12 @@
 		37FBB557217FC62C00E18260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB555217FC62C00E18260 /* Main.storyboard */; };
 		37FBB559217FC62D00E18260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB558217FC62D00E18260 /* Assets.xcassets */; };
 		37FBB55C217FC62D00E18260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB55A217FC62D00E18260 /* LaunchScreen.storyboard */; };
-		37FBB567217FC62E00E18260 /* CrowdboticsWatchOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB566217FC62E00E18260 /* CrowdboticsWatchOSTests.swift */; };
-		37FBB572217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB571217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift */; };
-		37FBB577217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 37FBB576217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app */; };
+		37FBB567217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB566217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests.swift */; };
+		37FBB572217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB571217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests.swift */; };
+		37FBB577217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 37FBB576217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App.app */; };
 		37FBB57D217FC62E00E18260 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB57B217FC62E00E18260 /* Interface.storyboard */; };
 		37FBB57F217FC62E00E18260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FBB57E217FC62E00E18260 /* Assets.xcassets */; };
-		37FBB586217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 37FBB585217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37FBB586217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 37FBB585217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		37FBB58B217FC62E00E18260 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB58A217FC62E00E18260 /* InterfaceController.swift */; };
 		37FBB58D217FC62E00E18260 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB58C217FC62E00E18260 /* ExtensionDelegate.swift */; };
 		37FBB58F217FC62E00E18260 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBB58E217FC62E00E18260 /* NotificationController.swift */; };
@@ -30,28 +30,28 @@
 			containerPortal = 37FBB546217FC62C00E18260 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 37FBB54D217FC62C00E18260;
-			remoteInfo = CrowdboticsWatchOS;
+			remoteInfo = {{cookiecutter.project_slug}};
 		};
 		37FBB56E217FC62E00E18260 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 37FBB546217FC62C00E18260 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 37FBB54D217FC62C00E18260;
-			remoteInfo = CrowdboticsWatchOS;
+			remoteInfo = {{cookiecutter.project_slug}};
 		};
 		37FBB578217FC62E00E18260 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 37FBB546217FC62C00E18260 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 37FBB575217FC62E00E18260;
-			remoteInfo = "CrowdboticsWatchOS WatchKit App";
+			remoteInfo = "{{cookiecutter.project_slug}} WatchKit App";
 		};
 		37FBB587217FC62E00E18260 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 37FBB546217FC62C00E18260 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 37FBB584217FC62E00E18260;
-			remoteInfo = "CrowdboticsWatchOS WatchKit Extension";
+			remoteInfo = "{{cookiecutter.project_slug}} WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -62,7 +62,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				37FBB586217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex in Embed App Extensions */,
+				37FBB586217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +73,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				37FBB577217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app in Embed Watch Content */,
+				37FBB577217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,24 +81,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		37FBB54E217FC62C00E18260 /* CrowdboticsWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdboticsWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB54E217FC62C00E18260 /* {{cookiecutter.project_slug}}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = {{cookiecutter.project_slug}}.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FBB551217FC62C00E18260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37FBB553217FC62C00E18260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37FBB556217FC62C00E18260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37FBB558217FC62D00E18260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37FBB55B217FC62D00E18260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37FBB55D217FC62D00E18260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37FBB562217FC62E00E18260 /* CrowdboticsWatchOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdboticsWatchOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37FBB566217FC62E00E18260 /* CrowdboticsWatchOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdboticsWatchOSTests.swift; sourceTree = "<group>"; };
+		37FBB562217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = {{cookiecutter.project_slug}}Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB566217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = {{cookiecutter.project_slug}}Tests.swift; sourceTree = "<group>"; };
 		37FBB568217FC62E00E18260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37FBB56D217FC62E00E18260 /* CrowdboticsWatchOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdboticsWatchOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37FBB571217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdboticsWatchOSUITests.swift; sourceTree = "<group>"; };
+		37FBB56D217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = {{cookiecutter.project_slug}}UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB571217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = {{cookiecutter.project_slug}}UITests.swift; sourceTree = "<group>"; };
 		37FBB573217FC62E00E18260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37FBB576217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrowdboticsWatchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB576217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "{{cookiecutter.project_slug}} WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FBB57C217FC62E00E18260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		37FBB57E217FC62E00E18260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37FBB580217FC62E00E18260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37FBB585217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CrowdboticsWatchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBB585217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "{{cookiecutter.project_slug}} WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FBB58A217FC62E00E18260 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		37FBB58C217FC62E00E18260 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		37FBB58E217FC62E00E18260 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -142,11 +142,11 @@
 		37FBB545217FC62C00E18260 = {
 			isa = PBXGroup;
 			children = (
-				37FBB550217FC62C00E18260 /* CrowdboticsWatchOS */,
-				37FBB565217FC62E00E18260 /* CrowdboticsWatchOSTests */,
-				37FBB570217FC62E00E18260 /* CrowdboticsWatchOSUITests */,
-				37FBB57A217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */,
-				37FBB589217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */,
+				37FBB550217FC62C00E18260 /* {{cookiecutter.project_slug}} */,
+				37FBB565217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests */,
+				37FBB570217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests */,
+				37FBB57A217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App */,
+				37FBB589217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension */,
 				37FBB54F217FC62C00E18260 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,16 +154,16 @@
 		37FBB54F217FC62C00E18260 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37FBB54E217FC62C00E18260 /* CrowdboticsWatchOS.app */,
-				37FBB562217FC62E00E18260 /* CrowdboticsWatchOSTests.xctest */,
-				37FBB56D217FC62E00E18260 /* CrowdboticsWatchOSUITests.xctest */,
-				37FBB576217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app */,
-				37FBB585217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex */,
+				37FBB54E217FC62C00E18260 /* {{cookiecutter.project_slug}}.app */,
+				37FBB562217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests.xctest */,
+				37FBB56D217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests.xctest */,
+				37FBB576217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App.app */,
+				37FBB585217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37FBB550217FC62C00E18260 /* CrowdboticsWatchOS */ = {
+		37FBB550217FC62C00E18260 /* {{cookiecutter.project_slug}} */ = {
 			isa = PBXGroup;
 			children = (
 				37FBB551217FC62C00E18260 /* AppDelegate.swift */,
@@ -173,38 +173,38 @@
 				37FBB55A217FC62D00E18260 /* LaunchScreen.storyboard */,
 				37FBB55D217FC62D00E18260 /* Info.plist */,
 			);
-			path = CrowdboticsWatchOS;
+			path = {{cookiecutter.project_slug}};
 			sourceTree = "<group>";
 		};
-		37FBB565217FC62E00E18260 /* CrowdboticsWatchOSTests */ = {
+		37FBB565217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests */ = {
 			isa = PBXGroup;
 			children = (
-				37FBB566217FC62E00E18260 /* CrowdboticsWatchOSTests.swift */,
+				37FBB566217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests.swift */,
 				37FBB568217FC62E00E18260 /* Info.plist */,
 			);
-			path = CrowdboticsWatchOSTests;
+			path = {{cookiecutter.project_slug}}Tests;
 			sourceTree = "<group>";
 		};
-		37FBB570217FC62E00E18260 /* CrowdboticsWatchOSUITests */ = {
+		37FBB570217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests */ = {
 			isa = PBXGroup;
 			children = (
-				37FBB571217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift */,
+				37FBB571217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests.swift */,
 				37FBB573217FC62E00E18260 /* Info.plist */,
 			);
-			path = CrowdboticsWatchOSUITests;
+			path = {{cookiecutter.project_slug}}UITests;
 			sourceTree = "<group>";
 		};
-		37FBB57A217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */ = {
+		37FBB57A217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				37FBB57B217FC62E00E18260 /* Interface.storyboard */,
 				37FBB57E217FC62E00E18260 /* Assets.xcassets */,
 				37FBB580217FC62E00E18260 /* Info.plist */,
 			);
-			path = "CrowdboticsWatchOS WatchKit App";
+			path = "{{cookiecutter.project_slug}} WatchKit App";
 			sourceTree = "<group>";
 		};
-		37FBB589217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */ = {
+		37FBB589217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				37FBB58A217FC62E00E18260 /* InterfaceController.swift */,
@@ -214,15 +214,15 @@
 				37FBB592217FC62F00E18260 /* Info.plist */,
 				37FBB593217FC62F00E18260 /* PushNotificationPayload.apns */,
 			);
-			path = "CrowdboticsWatchOS WatchKit Extension";
+			path = "{{cookiecutter.project_slug}} WatchKit Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37FBB54D217FC62C00E18260 /* CrowdboticsWatchOS */ = {
+		37FBB54D217FC62C00E18260 /* {{cookiecutter.project_slug}} */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37FBB59E217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS" */;
+			buildConfigurationList = 37FBB59E217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}}" */;
 			buildPhases = (
 				37FBB54A217FC62C00E18260 /* Sources */,
 				37FBB54B217FC62C00E18260 /* Frameworks */,
@@ -234,14 +234,14 @@
 			dependencies = (
 				37FBB579217FC62E00E18260 /* PBXTargetDependency */,
 			);
-			name = CrowdboticsWatchOS;
-			productName = CrowdboticsWatchOS;
-			productReference = 37FBB54E217FC62C00E18260 /* CrowdboticsWatchOS.app */;
+			name = {{cookiecutter.project_slug}};
+			productName = {{cookiecutter.project_slug}};
+			productReference = 37FBB54E217FC62C00E18260 /* {{cookiecutter.project_slug}}.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37FBB561217FC62E00E18260 /* CrowdboticsWatchOSTests */ = {
+		37FBB561217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37FBB5A1217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOSTests" */;
+			buildConfigurationList = 37FBB5A1217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}}Tests" */;
 			buildPhases = (
 				37FBB55E217FC62E00E18260 /* Sources */,
 				37FBB55F217FC62E00E18260 /* Frameworks */,
@@ -252,14 +252,14 @@
 			dependencies = (
 				37FBB564217FC62E00E18260 /* PBXTargetDependency */,
 			);
-			name = CrowdboticsWatchOSTests;
-			productName = CrowdboticsWatchOSTests;
-			productReference = 37FBB562217FC62E00E18260 /* CrowdboticsWatchOSTests.xctest */;
+			name = {{cookiecutter.project_slug}}Tests;
+			productName = {{cookiecutter.project_slug}}Tests;
+			productReference = 37FBB562217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		37FBB56C217FC62E00E18260 /* CrowdboticsWatchOSUITests */ = {
+		37FBB56C217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37FBB5A4217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOSUITests" */;
+			buildConfigurationList = 37FBB5A4217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}}UITests" */;
 			buildPhases = (
 				37FBB569217FC62E00E18260 /* Sources */,
 				37FBB56A217FC62E00E18260 /* Frameworks */,
@@ -270,14 +270,14 @@
 			dependencies = (
 				37FBB56F217FC62E00E18260 /* PBXTargetDependency */,
 			);
-			name = CrowdboticsWatchOSUITests;
-			productName = CrowdboticsWatchOSUITests;
-			productReference = 37FBB56D217FC62E00E18260 /* CrowdboticsWatchOSUITests.xctest */;
+			name = {{cookiecutter.project_slug}}UITests;
+			productName = {{cookiecutter.project_slug}}UITests;
+			productReference = 37FBB56D217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		37FBB575217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */ = {
+		37FBB575217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37FBB59A217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS WatchKit App" */;
+			buildConfigurationList = 37FBB59A217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}} WatchKit App" */;
 			buildPhases = (
 				37FBB574217FC62E00E18260 /* Resources */,
 				37FBB599217FC62F00E18260 /* Embed App Extensions */,
@@ -287,14 +287,14 @@
 			dependencies = (
 				37FBB588217FC62E00E18260 /* PBXTargetDependency */,
 			);
-			name = "CrowdboticsWatchOS WatchKit App";
-			productName = "CrowdboticsWatchOS WatchKit App";
-			productReference = 37FBB576217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App.app */;
+			name = "{{cookiecutter.project_slug}} WatchKit App";
+			productName = "{{cookiecutter.project_slug}} WatchKit App";
+			productReference = 37FBB576217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		37FBB584217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */ = {
+		37FBB584217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37FBB596217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS WatchKit Extension" */;
+			buildConfigurationList = 37FBB596217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}} WatchKit Extension" */;
 			buildPhases = (
 				37FBB581217FC62E00E18260 /* Sources */,
 				37FBB582217FC62E00E18260 /* Frameworks */,
@@ -304,9 +304,9 @@
 			);
 			dependencies = (
 			);
-			name = "CrowdboticsWatchOS WatchKit Extension";
-			productName = "CrowdboticsWatchOS WatchKit Extension";
-			productReference = 37FBB585217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension.appex */;
+			name = "{{cookiecutter.project_slug}} WatchKit Extension";
+			productName = "{{cookiecutter.project_slug}} WatchKit Extension";
+			productReference = 37FBB585217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -338,7 +338,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37FBB549217FC62C00E18260 /* Build configuration list for PBXProject "CrowdboticsWatchOS" */;
+			buildConfigurationList = 37FBB549217FC62C00E18260 /* Build configuration list for PBXProject "{{cookiecutter.project_slug}}" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -351,11 +351,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37FBB54D217FC62C00E18260 /* CrowdboticsWatchOS */,
-				37FBB561217FC62E00E18260 /* CrowdboticsWatchOSTests */,
-				37FBB56C217FC62E00E18260 /* CrowdboticsWatchOSUITests */,
-				37FBB575217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */,
-				37FBB584217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */,
+				37FBB54D217FC62C00E18260 /* {{cookiecutter.project_slug}} */,
+				37FBB561217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests */,
+				37FBB56C217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests */,
+				37FBB575217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App */,
+				37FBB584217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -418,7 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37FBB567217FC62E00E18260 /* CrowdboticsWatchOSTests.swift in Sources */,
+				37FBB567217FC62E00E18260 /* {{cookiecutter.project_slug}}Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37FBB572217FC62E00E18260 /* CrowdboticsWatchOSUITests.swift in Sources */,
+				37FBB572217FC62E00E18260 /* {{cookiecutter.project_slug}}UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,22 +445,22 @@
 /* Begin PBXTargetDependency section */
 		37FBB564217FC62E00E18260 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37FBB54D217FC62C00E18260 /* CrowdboticsWatchOS */;
+			target = 37FBB54D217FC62C00E18260 /* {{cookiecutter.project_slug}} */;
 			targetProxy = 37FBB563217FC62E00E18260 /* PBXContainerItemProxy */;
 		};
 		37FBB56F217FC62E00E18260 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37FBB54D217FC62C00E18260 /* CrowdboticsWatchOS */;
+			target = 37FBB54D217FC62C00E18260 /* {{cookiecutter.project_slug}} */;
 			targetProxy = 37FBB56E217FC62E00E18260 /* PBXContainerItemProxy */;
 		};
 		37FBB579217FC62E00E18260 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37FBB575217FC62E00E18260 /* CrowdboticsWatchOS WatchKit App */;
+			target = 37FBB575217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit App */;
 			targetProxy = 37FBB578217FC62E00E18260 /* PBXContainerItemProxy */;
 		};
 		37FBB588217FC62E00E18260 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37FBB584217FC62E00E18260 /* CrowdboticsWatchOS WatchKit Extension */;
+			target = 37FBB584217FC62E00E18260 /* {{cookiecutter.project_slug}} WatchKit Extension */;
 			targetProxy = 37FBB587217FC62E00E18260 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -614,13 +614,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "CrowdboticsWatchOS WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "{{cookiecutter.project_slug}} WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOS.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.{{cookiecutter.project_slug}}.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -635,13 +635,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "CrowdboticsWatchOS WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "{{cookiecutter.project_slug}} WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOS.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.{{cookiecutter.project_slug}}.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -657,9 +657,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				IBSC_MODULE = CrowdboticsWatchOS_WatchKit_Extension;
-				INFOPLIST_FILE = "CrowdboticsWatchOS WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOS.watchkitapp;
+				IBSC_MODULE = {{cookiecutter.project_slug}}_WatchKit_Extension;
+				INFOPLIST_FILE = "{{cookiecutter.project_slug}} WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.{{cookiecutter.project_slug}}.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -675,9 +675,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				IBSC_MODULE = CrowdboticsWatchOS_WatchKit_Extension;
-				INFOPLIST_FILE = "CrowdboticsWatchOS WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOS.watchkitapp;
+				IBSC_MODULE = {{cookiecutter.project_slug}}_WatchKit_Extension;
+				INFOPLIST_FILE = "{{cookiecutter.project_slug}} WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.{{cookiecutter.project_slug}}.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -692,7 +692,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CrowdboticsWatchOS/Info.plist;
+				INFOPLIST_FILE = {{cookiecutter.project_slug}}/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -709,7 +709,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CrowdboticsWatchOS/Info.plist;
+				INFOPLIST_FILE = {{cookiecutter.project_slug}}/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -727,17 +727,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CrowdboticsWatchOSTests/Info.plist;
+				INFOPLIST_FILE = {{cookiecutter.project_slug}}Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.{{cookiecutter.project_slug}}Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrowdboticsWatchOS.app/CrowdboticsWatchOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/{{cookiecutter.project_slug}}.app/{{cookiecutter.project_slug}}";
 			};
 			name = Debug;
 		};
@@ -747,17 +747,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CrowdboticsWatchOSTests/Info.plist;
+				INFOPLIST_FILE = {{cookiecutter.project_slug}}Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.{{cookiecutter.project_slug}}Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrowdboticsWatchOS.app/CrowdboticsWatchOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/{{cookiecutter.project_slug}}.app/{{cookiecutter.project_slug}}";
 			};
 			name = Release;
 		};
@@ -766,17 +766,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CrowdboticsWatchOSUITests/Info.plist;
+				INFOPLIST_FILE = {{cookiecutter.project_slug}}UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOSUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.{{cookiecutter.project_slug}}UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CrowdboticsWatchOS;
+				TEST_TARGET_NAME = {{cookiecutter.project_slug}};
 			};
 			name = Debug;
 		};
@@ -785,24 +785,24 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CrowdboticsWatchOSUITests/Info.plist;
+				INFOPLIST_FILE = {{cookiecutter.project_slug}}UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.CrowdboticsWatchOSUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.{{cookiecutter.project_slug}}UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CrowdboticsWatchOS;
+				TEST_TARGET_NAME = {{cookiecutter.project_slug}};
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37FBB549217FC62C00E18260 /* Build configuration list for PBXProject "CrowdboticsWatchOS" */ = {
+		37FBB549217FC62C00E18260 /* Build configuration list for PBXProject "{{cookiecutter.project_slug}}" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37FBB594217FC62F00E18260 /* Debug */,
@@ -811,7 +811,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37FBB596217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS WatchKit Extension" */ = {
+		37FBB596217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}} WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37FBB597217FC62F00E18260 /* Debug */,
@@ -820,7 +820,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37FBB59A217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS WatchKit App" */ = {
+		37FBB59A217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}} WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37FBB59B217FC62F00E18260 /* Debug */,
@@ -829,7 +829,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37FBB59E217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOS" */ = {
+		37FBB59E217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}}" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37FBB59F217FC62F00E18260 /* Debug */,
@@ -838,7 +838,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37FBB5A1217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOSTests" */ = {
+		37FBB5A1217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}}Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37FBB5A2217FC62F00E18260 /* Debug */,
@@ -847,7 +847,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37FBB5A4217FC62F00E18260 /* Build configuration list for PBXNativeTarget "CrowdboticsWatchOSUITests" */ = {
+		37FBB5A4217FC62F00E18260 /* Build configuration list for PBXNativeTarget "{{cookiecutter.project_slug}}UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37FBB5A5217FC62F00E18260 /* Debug */,

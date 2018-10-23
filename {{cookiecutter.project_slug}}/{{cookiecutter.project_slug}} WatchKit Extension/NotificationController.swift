@@ -1,6 +1,6 @@
 //
 //  NotificationController.swift
-//  CrowdboticsWatchOS WatchKit Extension
+//  {{cookiecutter.project_slug}} WatchKit Extension
 //
 //  Created by Dan on 10/23/18.
 //  Copyright © 2018 Crowdbotics. All rights reserved.
